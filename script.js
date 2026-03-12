@@ -116,7 +116,7 @@ gsap.from("#colon2",{
     y:70,
     x:70,
     scrollTrigger:{
-        trigger:"colon1",
+        trigger:"#colon1",
         scroller:"body",
         start: "top 55%",
         end:"top 47%",
